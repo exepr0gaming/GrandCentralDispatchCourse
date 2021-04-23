@@ -18,8 +18,8 @@ global queue
 */
 // MARK: - QoS определение приоритета очереди
 /*
-.unspecified .background .utility .default .userInitiated(немного подождать) .userInteractive (немедленно)
+.unspecified .background .utility .default .userInitiated(немного подождать) .userInteractive (немедленно) asdas
 */
 // MARK: - sync / async
 
-let queue = DispatchQueue(label: "nameQueue", qos: .utility , attributes: <#T##DispatchQueue.Attributes#>, autoreleaseFrequency: <#T##DispatchQueue.AutoreleaseFrequency#>, target: <#T##DispatchQueue?#>)
+let queue = DispatchQueue(label: "nameQueue", qos: .utility)
